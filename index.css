@@ -1,0 +1,149 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f2f5;
+}
+
+/* Header */
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.btn-signup {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-signup:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn-cta:hover {
+    background-color: #0056b3;
+}
+
+.hero-image {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px 0;
+    background-color: #f0f2f5;
+    text-align: center;
+}
+
+.feature {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    margin: 0 8px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    color: #007bff;
+}
